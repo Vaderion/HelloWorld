@@ -7,7 +7,7 @@ public class Primzahl {
 	
 	public static void main(String[] args) {
 
-		for(int i=number; i<=10000000; i++){
+		for(int i=number; i<=100000; i++){
 			number=i;
 			if(isPrime(number)==true){
 				System.out.print(number+" ");
@@ -25,6 +25,9 @@ public class Primzahl {
 						return false;}
 						}
 				return true;
+				
+		public static int addiere(int Zahl1, int Zahl2){
+				
 				}
 		}
 
